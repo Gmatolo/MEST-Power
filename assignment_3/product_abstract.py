@@ -40,7 +40,7 @@ class ProductManager(ProductAbstract):
     def edit_product(self, name):
         print("product edited")
 
-    def get_product_id(self, id):
+    def get_product_by_id(self, id):
         print("product id")
 
     def get_all_products(self):
