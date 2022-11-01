@@ -54,3 +54,10 @@ class ProductManager(ProductAbstract):
 
 
 product1 = ProductManager()
+
+
+product1.edit_product()
+product1.get_product_by_id()
+product1.get_all_products()
+product1.upload_product_image()
+product1.delete_product()
