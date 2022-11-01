@@ -51,3 +51,6 @@ class ProductManager(ProductAbstract):
 
     def delete_product(self, id):
         print("product deleted")
+
+
+product1 = ProductManager()
