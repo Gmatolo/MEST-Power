@@ -32,3 +32,4 @@ class ContactManager(ContactDetails, ContactBookAbstract):
             print(k, v)
 
 
+contactdetail_1 = ContactManager().create_contact()
